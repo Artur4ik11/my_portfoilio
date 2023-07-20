@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Обменник курсов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="eel.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+    <h1 id="main_name">Конвертер валют</h1>
+    <div class="valuta">
+        <p>Выберите валюту</p>
+        <select name="valuta_1" id="valuta_1">
+            <option value="USD">USD</option>
+            <option value="BYN">BYN</option>
+            <option value="EUR">EUR</option>
+            <option value="RUB">RUB</option>
+        </select>
+        <p class="p_v">Выберите валюту</p>
+        <select name="valuta_2" id="valuta_2">
+            <option value="USD">USD</option>
+            <option value="BYN">BYN</option>
+            <option value="EUR">EUR</option>
+            <option value="RUB">RUB</option>
+        </select>
+    </div>
+    
+    <div class="input_for">
+        <form id="formm" action="../main.py" method="post">
+            <p><input id="number_for_konv" type="number" name="number" placeholder="Введите сумму"></p>
+            <img id="equals" src="img/equals.png" alt="">
+            <p><output id="out"></output></p> 
+        </form> 
+    </div>
+
+    <div id="bt">
+        <button id="button_main" onclick="get_form()">Рассчитать</button>
+    </div>
+    <script type="text/javascript">
+            async function get_form() {
+                var valuta = document.getElementById("number_for_konv").value;
+                var in_s = document.getElementById("valuta_1").value;
+                var out_s= document.getElementById("valuta_2").value;
+
+                var result = await 
+            eel.get_course(valuta,in_s,out_s)();
+            document.getElementById('out').innerHTML = result;
+        }
+    </script>
+</body>
+</html>

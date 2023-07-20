@@ -1,0 +1,94 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.valuta{
+    display: flex;
+    margin-bottom: -17px;
+    margin-left: 19px;
+}
+
+#valuta_1{
+    height: 23px;
+    margin-top: 19px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 3px;
+}
+
+.p_v{
+    margin-left: 40px;
+}
+
+#valuta_2{
+    height: 23px;
+    margin-top: 19px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 3px;
+}
+
+.input_for{
+    margin-left: 20px;
+    display: inline-flex;
+}
+
+#equals{
+    width: 52px;
+    margin-top: 5px;
+    height: 56px;
+    margin-left: 10px;
+}
+
+
+#main_name{
+    text-align: center;
+}
+
+#number_for_konv{
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+
+#bt{
+    margin-left: 83px;
+}
+
+#formm{
+    display: inline-flex;
+}
+
+#button_main{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button_main:hover {
+    background-color: #fe8952
+    }
+
+#button_main:active {
+  background-color: #fe8952;
+  box-shadow: 0 5px #f59494;
+  transform: translateY(4px);
+}
+
+
+
