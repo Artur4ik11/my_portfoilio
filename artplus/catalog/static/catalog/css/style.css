@@ -1,0 +1,235 @@
+body{
+    background-color: #162831;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+/* Навигационное меню */
+#t2{
+    padding-left: 352px;
+}
+/* Для тел */
+
+.knopka{
+    color: #162831;
+    font-weight: 400;
+    font-size: 17pt;
+}
+.logo{
+   width: 300px; 
+}
+#row1{
+    align-items: center;
+    padding-top: 15px;
+}
+.btn-outline-info{
+    margin-left: 10px;
+}
+.btt{
+    text-decoration: none;
+    color: #0dcaf0;
+}
+#nav_but1{
+    margin-left: 52px;
+}
+
+/* Основа на Главной */
+#row2{
+    padding-top: 45px;
+}
+#plitka{
+    border: 1px solid #162831;
+    border-radius: 30px;
+}
+.text1{
+    border: solid #162831;
+    border-radius: 30px;
+    background-color: white;
+    padding: 18px;
+}
+.Zagolovok{
+    font-size: 50px;
+    font-weight: 600;
+    color: #162831;
+}
+.Comments{
+    font-size: 25px;
+    color: #162831;
+}
+.text2{
+    border: solid #162831;
+    border-radius: 30px;
+    background-color: white;
+    padding: 18px;
+    height: 200px;
+}
+.Comments2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #162831;
+    line-height: 89%;
+}
+/* Каталог */
+h1{
+    color: white; 
+}
+.card{
+    width: 16rem;
+    margin-right: 0px;
+}
+/* Заголовок */
+.cat_name{
+    text-align: center;
+    margin-top: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 45px;   
+}
+/* Карточки */
+.items{
+    margin-top: 30px;
+    padding-left: 70px;
+}
+#besser{
+    margin-bottom: -10px;
+}
+#borts{
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+/* Кнопки Карточек */
+.card{
+    margin-right: 56px;
+}
+#card4{
+    margin-right: 0px;
+}
+#btn1{
+    margin-top: 19px;
+}
+#btn2{
+    margin-top:  24px;
+}
+#btn3{
+    margin-top: 54px;
+}
+#btn4{
+    margin-top: 24px;
+}
+/* О нас */
+#imgs{
+    padding-top: 40px;
+}
+/* Photo */
+.HandShake{
+    width: 250px;
+    margin-left: 85px;
+}
+.Price{
+    margin-left: 75px;
+    width: 250px;
+    margin-top: -39px;
+}
+.Finger{
+    margin-left: 85px;
+    width: 250px;
+    margin-top: -21px;
+}
+/* Text */
+.Zag_ab{
+    text-align: center;
+}
+#row_ab{
+    margin-top: 15px;
+}
+#text_col{
+    text-align: left;
+}
+.bg_text{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #162831;
+    border-radius: 30px; 
+    padding: 15px 18px;
+}
+.text_ab{
+    font-size: 25px;
+    color: #162831;
+}
+/* Feedback */
+#form_for_email{
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+}
+#form_for_feedback{
+    color: white;
+    font-size: 30px;
+}
+/* Контакты */
+#raspis{
+    height: 238px;
+}
+#mapa{
+    padding-top: 20px;
+}
+.map{
+    border: 1px solid #162831;
+    border-radius: 30px;
+}
+.tel{
+    text-decoration: none;
+    color: #162831;
+}
+.mail{
+    padding-top: 10px;
+}
+#first_cont{
+    padding-bottom: 2px;
+}
+#call{
+    color: orange;
+}
+#row33{
+    margin-right: -38px;
+}
+/* Footer */
+#footer{
+    margin-top: 60px
+}
+#footer_text1{
+    color: white;
+    font-size: 25px;
+}
+#footer_text2{
+    color: white;
+    font-size: 25px;
+    text-align: end;
+}
+
+
+/*/*//*/*//*Карточки товаров*/
+#ryad{
+    margin-left: 5px;
+    margin-top: 17px;
+}
+#shashka{
+    height: 223px;
+}
+.col-sm-2{
+    width: 20%;
+    margin-right: 32px;
+    margin-top: 28px;
+}
+#card-text1{
+    font-size: 30px;
+}
+#plita1{
+    margin-left: 42px;
+}
+
+
+
+
+
+
+
+
+

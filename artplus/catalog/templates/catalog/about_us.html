@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../static/catalog/css/style.css">
+    <style>
+        @media screen and (max-width:1439px)  {
+            #t2{
+                padding-left: 111px;
+            }
+            .Price{
+                margin-left: 27px;
+            }
+            .Finger{
+                margin-left: 35px;
+            }    
+            .HandShake{
+                margin-left: 25px;
+                
+            }
+        }
+        @media screen and (max-width:1023px) {
+            .logo{
+                width: 193px;
+            }
+            #nav_but1 {
+                margin-left: 0px;
+            }
+            #t2{
+                padding-left: 0px;
+            }
+            .Price{
+                margin-left: 15px;
+                height: 200px;
+                width: 200px;
+                margin-top: -3px;
+            }
+            .Finger{
+                margin-left: 30px;
+                height: 180px;
+                width: 180px;
+                margin-top: 6px;
+            }
+            .HandShake{
+                margin-left: 8px;
+                height: 200px;
+                width: 200px;
+            }
+            .bg_text{
+                padding:15px 17px;
+            }
+            #text_col{
+                text-align: center;
+            }
+        }
+        @media screen and (max-width:767px) {
+            #nav_but{
+                width: 72px;
+                margin-left: 0px;
+                
+            }
+            #nav_but1{
+                width: 72px;
+                margin-left: 27px;
+            }
+            .btt{
+                margin-left: -4px;
+            }
+            #bttid{
+                margin-left: -10px;
+            }
+            #t1{
+                padding-left: 113px;
+            }
+            #t2{
+                padding-top: 10px;
+            }
+            .Finger{
+                margin-left: -1px;
+                height: 110px;
+                width: 110px;
+            }
+            .Price{
+                margin-left: -3px;
+                height: 130px;
+                width: 130px;
+            }
+            .HandShake{
+                margin-left: 8px;
+                height: 130px;
+                width: 130px;
+            }
+            #text_col{
+                width: 100%;
+            }
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
+    <title>О нас</title>
+</head>
+<body>
+    <div class="container">
+        <div id="row1" class="row">
+            <div id="t1" class="col-sm-4">
+                <div class="logo_nav">
+                    <img class="logo" src="../../static/catalog/img/logo.png" alt="logo">
+                </div>
+            </div>
+            <div id="t2" class="col-sm-8">
+                <button id="nav_but1" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="main">Главная</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="catalog">Каталог</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="#">О нас</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="feedback">Галерея</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a id="bttid" class="btt" href="contacts">Контакты</a></button>
+            </div>
+        </div>
+        <div id="imgs" class="row">
+            <div class="col-4">
+                <img class="HandShake" src="../../static/catalog/img/Handshake.png" alt="Handshake">
+            </div>
+            <div class="col-4">
+                <img class="Price" src="../../static/catalog/img/Price.png" alt="Price">
+            </div>
+            <div class="col-4">
+                <img class="Finger" src="../../static/catalog/img/Finger.png" alt="FingerUp">
+            </div>
+        </div>
+        <div id="row_ab" class="row">
+            <div id="text_col" class="col-4">
+                <div class="bg_text">
+                    <span class="text_ab">
+                       <h3 class="Zag_ab">Перспектива</h3>
+                       Мы нацелены на долгосрочную перспективу и дорожим нашими клиентами,а так же нашей репутацией заработанной за долгие годы, поэтому всегда идем на уступки с нашей стороны. 
+                    </span>
+                </div>            
+            </div>
+            <div id="text_col" class="col-4">
+                <div class="bg_text">
+                    <span class="text_ab">
+                        <h3 class="Zag_ab">Ценовая политика</h3>
+                        Низкая цена на тротуарную плитку формируется благодаря большой производительности, которую обеспечивает дорогостоящее оборудование при полном соблюдении всех технологических процессов.
+                    </span>
+                </div>
+            </div>
+            <div id="text_col" class="col-4">
+                <div class="bg_text">
+                    <span class="text_ab">
+                        <h3 class="Zag_ab">Быстрые сроки</h3>
+                        В большинстве случаев, плитка имеется в наличии. При изготовлении под заказ, мы озвучиваем конкретные сроки с запасом по времени, что нередко позволяет отгружать продукцию еще раньше.
+                    </span>               
+                </div>
+            </div>
+        </div> 
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

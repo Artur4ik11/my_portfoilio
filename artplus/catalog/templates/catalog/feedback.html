@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../static/catalog/css/style.css">
+    <style>
+        #carouselExampleIndicators{
+            width: 1000px;
+            height: 500px;
+            margin-top: 12px;
+            margin-left: 160px;
+        }
+        .carousel-inner{
+            height: 500px;
+            border: 1px solid white;
+            border-radius: 30px;
+        }
+        @media screen and (max-width:1439px)  {
+            #t2{
+                padding-left: 111px;
+            }
+            #carouselExampleIndicators {
+            width: 700px;
+            height: 375px;
+            margin-top: 12px;
+            margin-left: 130px;
+            }
+            .carousel-inner {
+            height: 375px;
+            border: 1px solid white;
+            border-radius: 30px;
+            }
+
+        }
+        @media screen and (max-width:1023px) {
+            .logo{
+                width: 193px;
+            }
+            #nav_but1 {
+                margin-left: 0px;
+            }
+            #t2{
+                padding-left: 0px;
+            }
+            #carouselExampleIndicators{
+            width: 500px;
+            height: 250px;
+            margin-top: 12px;
+            margin-left: 99px;
+            }
+            .carousel-inner{
+            height: 250px;
+            border: 1px solid white;
+            border-radius: 30px;
+        }
+            
+        }
+        @media screen and (max-width:767px) {
+            #nav_but{
+                width: 72px;
+                margin-left: 0px;
+                
+            }
+            #nav_but1{
+                width: 72px;
+                margin-left: 27px;
+            }
+            .btt{
+                margin-left: -4px;
+            }
+            #bttid{
+                margin-left: -10px;
+            }
+            #t1{
+                padding-left: 113px;
+            }
+            #t2{
+                padding-top: 10px;
+            }
+            #carouselExampleIndicators{
+            width: 401px;
+            height: 215px;
+            margin-top: 12px;
+            margin-left: 0px;
+            }
+            .carousel-inner{
+            height: 215px;
+            border: 1px solid white;
+            border-radius: 30px;
+            }
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
+    <title>Галерея</title>
+</head>
+<body>
+    <div class="container">
+        <div id="row1" class="row">
+            <div id="t1" class="col-sm-4">
+                <div class="logo_nav">
+                    <img class="logo" src="../../static/catalog/img/logo.png" alt="logo">
+                </div>
+            </div>
+            <div id="t2" class="col-sm-8">
+                <button id="nav_but1" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="main">Главная</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="catalog">Каталог</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="about_us">О нас</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="#">Галерея</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a id="bttid" class="btt" href="contacts">Контакты</a></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../../static/catalog/img/primer1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../static/catalog/img/primer2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../static/catalog/img/primer3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Следующий</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+          
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

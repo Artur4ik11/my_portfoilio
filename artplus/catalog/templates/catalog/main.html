@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../static/catalog/css/style.css">
+    <style>
+        @media screen and (max-width:1439px)  {
+            #t2{
+                padding-left: 111px;
+            }
+            .text2{
+                height: 168px;
+            }
+            #main_ph{
+                padding-top: 47px;
+            }
+        }
+        @media screen and (max-width:1023px) {
+            .logo{
+                width: 193px;
+            }
+            #nav_but1 {
+                margin-left: 0px;
+            }
+            #t2{
+                padding-left: 0px;
+            }
+            /* Главная */
+            #Pro{
+                width: 100%;
+                margin-left: -190px;
+                text-align: center;
+            }
+            #main_ph {
+                padding-top: 0px;
+            }
+        }
+        @media screen and (max-width:767px) {
+            #Pro {
+                margin-left: 0px;
+            }
+            .text1{
+                text-align: center;
+            }
+            #nav_but{
+                width: 72px;
+                margin-left: 0px;
+                
+            }
+            #nav_but1{
+                width: 72px;
+                margin-left: 27px;
+            }
+            .btt{
+                margin-left: -4px;
+            }
+            #bttid{
+                margin-left: -10px;
+            }
+            #t1{
+                padding-left: 113px;
+            }
+            #t2{
+                padding-top: 10px;
+            }
+            #row2 {
+                padding-top: 25px;
+            }
+        }
+       
+        
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
+    <title>Главная</title>
+</head>
+<body>
+    <div class="container">
+        <div id="row1" class="row">
+            <div id="t1" class="col-sm-4">
+                <div class="logo_nav">
+                    <img class="logo" src="../../static/catalog/img/logo.png" alt="logo">
+                </div>
+            </div>
+            <div id="t2" class="col-sm-8">
+                <button id="nav_but1" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="#">Главная</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="catalog">Каталог</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="about_us">О нас</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="feedback">Галерея</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a id="bttid" class="btt" href="contacts">Контакты</a></button>
+            </div>
+        </div>
+        <div id="row2" class="row">
+            <div id="main_ph" class="col-sm-6">
+                <img id="plitka" src="../../static/catalog/img/house-1836070_1920.jpg" class="img-fluid" alt="...">
+            </div>
+            <div id="main_text" class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text1">
+                            <span class="Zagolovok">Артплюс</span> <br>
+                            <span class="Comments">
+                                ЛИДЕР ПО КАЧЕСТВУ
+                                В ОБЛАСТИ <br id="br2"> ИЗГОТОВЛЕНИЯ
+                                ТРОТУАРНОЙ ПЛИТКИ <br id="br1">
+                                И ИЗДЕЛИЙ ИЗ БЕТОНА
+                            </span>
+                        </div>
+                    </div>
+                    <div id="Pro" class="col-sm-0">
+                        <div class="text2">
+                            <span class="Comments2">
+                                Доверяя нам  - <br> вы доверяеете профессионалам! <br> <br>
+                                Работаем с 2005 года.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

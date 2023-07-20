@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../static/catalog/css/style.css">
+    <style>
+         @media screen and (max-width:1439px)  {
+            #t2{
+                padding-left: 111px;
+            }
+            #btn1{
+                margin-top:24px;
+            }
+            #btn2{
+                margin-top: 4px;
+            }
+            #btn3{
+                margin-top: 35px;
+            }
+            #btn4{
+                margin-top: 31px;
+            }
+            #cards{
+                margin-left: -33px;
+            }
+            #card1{
+                margin-right: 16px;
+            }
+            .card{
+                width: 13rem;
+                margin-right: 16px;
+            }
+        }
+        @media screen and (max-width:1023px) {
+            .logo{
+                width: 193px;
+            }
+            #nav_but1 {
+                margin-left: 0px;
+            }
+            #t2{
+                padding-left: 0px;
+            }
+            .card{
+                width: 203px;
+            }
+            #card4{
+                margin-top: 17px;
+            }
+        }
+        @media screen and (max-width:767px) {
+            #nav_but{
+                width: 72px;
+                margin-left: 0px;
+                
+            }
+            #nav_but1{
+                width: 72px;
+                margin-left: 27px;
+            }
+            #btn1{
+                margin-top: 2px;
+            }
+            #btn3{
+                margin-top: 2px;
+            }
+            #btn4{
+                margin-top: 2px;
+            }
+            #borts{
+                margin-top: 16px;
+            }
+            #card3{
+                margin-top: 17px;
+            }
+            .btt{
+                margin-left: -4px;
+            }
+            #bttid{
+                margin-left: -10px;
+            }
+            #t1{
+                padding-left: 113px;
+            }
+            #t2{
+                padding-top: 10px;
+            }
+            #cards{
+                margin-left: -56px;
+            }
+            .card{
+                width: 180px;
+            }
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
+    <title>Каталог</title>
+</head>
+<body>
+    <div class="container">
+        <div id="row1" class="row">
+            <div id="t1" class="col-sm-4">
+                <div class="logo_nav">
+                    <img class="logo" src="../../static/catalog/img/logo.png" alt="logo">
+                </div>
+            </div>
+            <div id="t2" class="col-sm-8">
+                <button id="nav_but1" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="main">Главная</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="#">Каталог</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="about_us">О нас</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a class="btt" href="feedback">Галерея</a></button>
+                <button id="nav_but" type="button" class="btn btn-outline-info btn-lg"><a id="bttid" class="btt" href="contacts">Контакты</a></button>
+            </div>
+        </div>
+        <div class="items">
+            <div id="cards" class="row">
+                <div id="card1" class="card">
+                    <img src="../../static/catalog/img/square/Klever.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Плитка квадратная</h5>
+                      <p class="card-text">Привлекательный вид плитки способствует ее широкому применению. Данный материал применяется для мощения тротуаров, садовых и дворовых дорожек для дачи, в загородных домах.</p>
+                      <a id="btn1" href="square" class="btn btn-primary">К ассортименту</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <img src="../../static/catalog/img/romashka.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Фигурная плитка</h5>
+                      <p class="card-text">Богатство цветовой гаммы и фактуры предоставляет дизайнеру широкие возможности для реализации своих творческих идей,а уникальная прочность не оставляет выбора архитекторам!</p>
+                      <a id="btn2" href="figur" class="btn btn-primary">К ассортименту</a>
+                    </div>
+                </div>
+                <div id="card3" class="card" >
+                    <img id="besser" src="../../static/catalog/img/besser.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Бессер-Блоки</h5>
+                      <p class="card-text">Строительный материал для кладки стен и перегородок, который производят из песка, цемента, гравия, керамзита методом вибропрессования с дальнейшей термообработкой.</p>
+                      <a id="btn3" href="besser" class="btn btn-primary">К ассортименту</a>
+                    </div>
+                  </div>
+                <div id="card4" class="card" >
+                    <img id="borts" src="../../static/catalog/img/image-13.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Борты тротуарные</h5>
+                        <p class="card-text">Камни бортовые бетонные предназначены для отделения проезжей части улиц и дорог от тротуаров, газонов, площадок, а также пешеходных дорожек и тротуаров от газонов.</p>
+                        <a id="btn4" href="borts" class="btn btn-primary">К ассортименту</a>
+                    </div>
+                </div>  
+            </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
